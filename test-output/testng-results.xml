@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-11T01:24:39 IST" name="Default suite" finished-at="2025-07-11T01:25:12 IST" duration-ms="33495">
+  <suite started-at="2025-08-17T17:00:54 IST" name="Default suite" finished-at="2025-08-17T17:01:04 IST" duration-ms="10929">
     <groups>
     </groups>
-    <test started-at="2025-07-11T01:24:39 IST" name="Default test" finished-at="2025-07-11T01:25:12 IST" duration-ms="33495">
-      <class name="SeleniumPackage.JSBasics">
-        <test-method signature="f()[pri:0, instance:SeleniumPackage.JSBasics@4f83df68]" started-at="2025-07-11T01:24:39 IST" name="f" finished-at="2025-07-11T01:25:12 IST" duration-ms="33484" status="PASS">
+    <test started-at="2025-08-17T17:00:54 IST" name="Default test" finished-at="2025-08-17T17:01:04 IST" duration-ms="10929">
+      <class name="SeleniumPackage.DatePicker">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SeleniumPackage.DatePicker@411f53a0]" started-at="2025-08-17T17:00:54 IST" name="Setup" finished-at="2025-08-17T17:00:55 IST" duration-ms="1278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- SeleniumPackage.JSBasics -->
+        </test-method> <!-- Setup -->
+        <test-method signature="pickDate()[pri:0, instance:SeleniumPackage.DatePicker@411f53a0]" started-at="2025-08-17T17:00:55 IST" name="pickDate" finished-at="2025-08-17T17:01:04 IST" duration-ms="9533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickDate -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:SeleniumPackage.DatePicker@411f53a0]" started-at="2025-08-17T17:01:04 IST" name="TearDown" finished-at="2025-08-17T17:01:04 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- SeleniumPackage.DatePicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
