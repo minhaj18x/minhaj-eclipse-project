@@ -21,7 +21,7 @@ WebDriver driver;
 	
 @BeforeTest
   public void Setup() {
-		
+		//Added webdriver manager
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
